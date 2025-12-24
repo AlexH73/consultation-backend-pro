@@ -1,3 +1,5 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 # BackendPro – Consultation 🚀
 
 This repository contains educational backend materials for **Consultation Group Cohort 59**.
