@@ -1,0 +1,10 @@
+Object
+    Throwable
+        Error - ошибки которые мы не обрабатываем
+            Exception - checked unchecked
+                RuntimeException
+
+
+checked - проверка на этапе компиляции, java заставит их обрабатывать FileNotfoundException
+
+unchecked - проверяются компилятором, возникают во время выполнения NulPointException
