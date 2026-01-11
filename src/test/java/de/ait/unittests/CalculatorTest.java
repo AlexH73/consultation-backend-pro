@@ -6,10 +6,10 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class CalculatorTest {
 
-    private  Calculator calculator;
+    private Calculator calculator;
 
     @BeforeEach
-    void setUp(){
+    void setUp() {
         //Arrange
         calculator = new Calculator();
         System.out.println("setUp");
@@ -17,10 +17,9 @@ class CalculatorTest {
 
     @Test
     @DisplayName("Должен сложить два положительных числа")
-    void testAddShouldAddTwoNumbers(){
-
+    void testAddShouldAddTwoNumbers() {
         //Act
-        int result = calculator.add(5,10);
+        int result = calculator.add(5, 10);
 
         //Assert
         assertEquals(15, result);
@@ -29,12 +28,11 @@ class CalculatorTest {
 
     @Test
     @DisplayName("Должен сложить два нуля")
-    void testAddShouldAddTwo0Numbers(){
-        int result = calculator.add(0,0);
+    void testAddShouldAddTwo0Numbers() {
+        int result = calculator.add(0, 0);
 
         //Assert
         assertEquals(0, result);
     }
-
 
 }
