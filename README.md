@@ -1,4 +1,5 @@
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Java](https://img.shields.io/badge/Java-23-ED8B00?logo=openjdk&logoColor=white)](https://openjdk.org/projects/jdk/21/) [![Maven](https://img.shields.io/badge/Maven-3.9-C71A36?logo=apachemaven&logoColor=white)](https://maven.apache.org/) [![DataFaker](https://img.shields.io/badge/DataFaker-2.5.2-2C3E50?)](https://www.datafaker.net/)
+[![JUnit 5](https://img.shields.io/badge/JUnit-5.14-25A162?logo=junit5&logoColor=white)](https://junit.org/junit5/) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 # BackendPro – Consultation 🚀
 
@@ -14,15 +15,14 @@ and build a solid backend foundation step by step.
 Consultation/
 ├── src/
 │   ├── main/java/de/ait/
-│   │   ├── unittests/
-│   │   ├── collections/
-│   │   ├── exceptions/
-│   │   ├── oop/
-│   │   ├── streams/
+│   │   ├── unittests/ #Unit test examples
+│   │   ├── faker/  #Data generation utilities
+│   │   ├── exceptions/ #Custom exception handling
+│   │   ├── streamapi/ #Stream API examples
 │   │   └── ...
 │   └── test/java/de/ait/
-│       └── unittests/
-└── pom.xml
+│       └── unittests/ #Unit test implementations
+└── pom.xml #Maven configuration file
 ```
 
 - **One project = one group**
@@ -33,10 +33,11 @@ Consultation/
 
 ## 🛠 Technologies & Tools
 
-- **Java JDK 23**
-- **Maven**
+- **Java JDK 23** (programming language)
+- **Maven** (build tool)
 - **JUnit 5 (Jupiter)**
 - **JUnit 4** (legacy examples)
+- **DataFaker** (for generating test data)
 - IntelliJ IDEA
 - Git / GitHub
 
@@ -62,5 +63,5 @@ The project grows together with the course and group progress.
 
 ## ✍️ Author
 
-**Alex**  
+**Alex**   
 Backend / Full-Stack Developer (in progress)
