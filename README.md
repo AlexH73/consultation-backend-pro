@@ -1,4 +1,4 @@
-[![Java](https://img.shields.io/badge/Java-23-ED8B00?logo=openjdk&logoColor=white)](https://openjdk.org/projects/jdk/21/) [![Maven](https://img.shields.io/badge/Maven-3.9-C71A36?logo=apachemaven&logoColor=white)](https://maven.apache.org/) [![DataFaker](https://img.shields.io/badge/DataFaker-2.5.2-2C3E50?)](https://www.datafaker.net/)
+[![Java](https://img.shields.io/badge/Java-23-ED8B00?logo=openjdk&logoColor=white)](https://openjdk.org/projects/jdk/23/) [![Maven](https://img.shields.io/badge/Maven-3.9-C71A36?logo=apachemaven&logoColor=white)](https://maven.apache.org/) [![DataFaker](https://img.shields.io/badge/DataFaker-2.5.2-2C3E50?)](https://www.datafaker.net/)
 [![JUnit 5](https://img.shields.io/badge/JUnit-5.14-25A162?logo=junit5&logoColor=white)](https://junit.org/junit5/) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 # BackendPro – Consultation 🚀
